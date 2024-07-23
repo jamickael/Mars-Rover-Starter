@@ -76,10 +76,3 @@ describe("Rover class", function() {
   })
 
 });
-
-
-
-
-
-//“responds with a false completed value when attempting to move in LOW_POWER mode”
-//“responds with the position for the move command”

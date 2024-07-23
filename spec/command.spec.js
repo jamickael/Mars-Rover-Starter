@@ -10,7 +10,7 @@ describe("Command class", function() {
   });
 
   it("2. constructor sets command type", function() {
-    expect(new Command('bob')).toHaveProperty('commandType');
+    expect(new Command('bob')).toHaveProperty('commandType', 'bob');
   })
 
   it("3. constructor sets a value passed in as the 2nd argument", function () {

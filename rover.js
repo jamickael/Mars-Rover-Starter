@@ -13,8 +13,8 @@ class Rover {
             if (this.mode === 'LOW_POWER') {
                thisResult.completed = false; //adding result to reponse object
             } else {
-            this.position = message.commands[i].value; //updating rover position in rover object
-            thisResult.completed = true; //adding result to reponse object
+               this.position = message.commands[i].value; //updating rover position in rover object
+               thisResult.completed = true; //adding result to reponse object
             }   
          } else if (message.commands[i].commandType === 'STATUS_CHECK') {
             let roverStatus = {}; //creating roverStatus object to return 
